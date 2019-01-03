@@ -1,5 +1,5 @@
 /**
- * Created by wilson on 2018-02-03.
+ * Created by warren on 2018-02-03.
  */
 var Player = function (id, name, points) {
     var player = {
@@ -8,7 +8,7 @@ var Player = function (id, name, points) {
         id: id,
         username: name,
         points: points,
-        char: 'tyler1',
+        char: 'taeyeon',
 
         rightPress: false,
         leftPress: false,

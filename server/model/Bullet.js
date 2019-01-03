@@ -1,5 +1,5 @@
 /**
- * Created by wilson on 2018-02-03.
+ * Created by warren on 2018-02-03.
  */
 var Bullet = function (playerId,posX,posY,direction) {
     var bullet = {
