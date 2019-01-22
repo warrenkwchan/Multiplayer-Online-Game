@@ -1,5 +1,5 @@
 /**
- * Created by wilso on 2018-02-03.
+ * Created by warren on 2018-07-13.
  */
 
 const SERVER_PORT = 8000;
@@ -18,7 +18,7 @@ const RPS = {
 };
 
 /**
- * Created by warren on 2018-02-03.
+ * Created by warren on 2018-07-13.
  */
 var Bullet = function (playerId,posX,posY,direction) {
     var bullet = {
@@ -52,7 +52,7 @@ var Bullet = function (playerId,posX,posY,direction) {
     return bullet;
 }
 /**
- * Created by warren on 2018-02-03.
+ * Created by warren on 2018-07-13.
  */
 var Player = function (id, name, points) {
     var player = {
@@ -61,7 +61,7 @@ var Player = function (id, name, points) {
         id: id,
         username: name,
         points: points,
-        char: 'taeyeon',
+        char: 'orge',
 
         rightPress: false,
         leftPress: false,
